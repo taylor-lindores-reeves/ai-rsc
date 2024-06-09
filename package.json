@@ -1,0 +1,41 @@
+{
+  "name": "ai-rsc-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.24",
+    "@hookform/resolvers": "^3.4.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@t3-oss/env-nextjs": "^0.10.1",
+    "ai": "^3.1.30",
+    "binance": "^2.11.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "coinmarketcap-api": "^3.1.1",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.390.0",
+    "next": "^14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.5",
+    "react-intersection-observer": "^9.10.2",
+    "react-textarea-autosize": "^8.5.3",
+    "tailwind-merge": "^2.3.0",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
